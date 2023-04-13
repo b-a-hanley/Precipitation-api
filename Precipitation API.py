@@ -56,7 +56,7 @@ def Setup():
 
 def request(postcode):
     #url
-    url1 = "http://api.worldweatheronline.com/premium/v1/weather.ashx?key=6e070fef18694d7b83a211333220212&q="
+    url1 = "http://api.worldweatheronline.com/premium/v1/weather.ashx?key=#########"
     url2 ="&format=JSON"
     #get request
     resp = requests.get(url1+postcode+url2)
